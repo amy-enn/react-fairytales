@@ -36,7 +36,7 @@ npm install
 npm run start
 ```
 
-The app will be available in your browser at `localhost:5173`.  You can also visit a live version of the app [here](react-fairytales.vercel.app).
+The app will be available in your browser at `localhost:5173`.  You can also visit a live version of the app [here](https://react-fairytales.vercel.app).
 
 ## How It Works
 
