@@ -15,13 +15,19 @@ interface Choice {
 interface StorySection {
     id: number;
     text: string;
+    image: string;
     choices: Choice[];
 }
 
-interface StoryData {
-    [key: number]: StorySection;
-}
+// interface StoryData {
+//     [key: number]: StorySection;
+// }
 
+// interface StoryData {
+//     storyData: StorySection[];
+// }
+
+type StoryData = StorySection[];
 
 
 
@@ -61,7 +67,6 @@ export default function StoryModal({ storyData, isOpen, onClose, storyName }: St
                 break;
         }
 
-        console.log(`Setting border color to: ${borderColor}`); // Debugging line
         document.documentElement.style.setProperty('--border-color', borderColor);
         document.documentElement.style.setProperty('--button-border-color', buttonBorderColor);
         document.documentElement.style.setProperty('--button-bg-color', buttonBackgroundColor);
@@ -69,7 +74,7 @@ export default function StoryModal({ storyData, isOpen, onClose, storyName }: St
 
     useEffect(() => {
         setCurrentSectionId(1);
-    }, [storyData]);
+    }, []);
 
 
 
@@ -88,22 +93,24 @@ export default function StoryModal({ storyData, isOpen, onClose, storyName }: St
     return (
         <div className="story-modal">
             <div className="modal-content">
+                {currentSection && (
                 <div id="textAndImage">
 
                     <img src={`/images/${storyName}/${currentSection.image}`} />
                     <div id="textAndButtons">
-                    <p>{currentSection.text}</p>
-                    <div id="navButtonsDiv">
+                        <p>{currentSection.text}</p>
+                        <div id="navButtonsDiv">
 
-                        {currentSection.choices.map((choice: string) => (
-                            <button key={choice.next} onClick={() => handleChoiceClick(choice.next)}>
-                                {choice.text}
-                            </button>
-                        ))}
-                        <button onClick={onClose}>close</button>
+                            {currentSection.choices.map((choice: Choice) => (
+                                <button key={choice.next} onClick={() => handleChoiceClick(choice.next)}>
+                                    {choice.text}
+                                </button>
+                            ))}
+                            <button onClick={onClose}>close</button>
                         </div>
                     </div>
                 </div>
+                )}
             </div>
         </div>
     );

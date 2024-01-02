@@ -2,6 +2,20 @@ import { useState } from 'react';
 import './App.css';
 import StoryModal from './components/StoryModal';
 
+
+// interface AppProps {
+//   storyData: StoryData;
+  
+// }
+
+// interface StoryData {
+//   // storyData: StorySection[];
+//   data: StoryData;
+//   // isOpen: boolean;
+//   // onClose: () => void;
+//   // storyName: string;
+// }
+
 interface Choice {
   text: string;
   next: number;
@@ -10,13 +24,19 @@ interface Choice {
 interface StorySection {
   id: number;
   text: string;
+  image: string;
   choices: Choice[];
 }
 
-interface StoryData {
-  [key: number]: StorySection;
-}
+// interface StoryData {
+//   [key: number]: StorySection;
+// }
 
+// interface StoryData {
+//   storyData: StorySection[];
+// }
+
+type StoryData = StorySection[];
 
 
 export default function App() {
@@ -29,8 +49,8 @@ export default function App() {
   async function fetchStoryData(storyName: string) {
     try {
       const response = await fetch(`${storyName}.json`);
-      const data: StoryData = await response.json();
-      setSelectedStory(data);
+      const storyData: StoryData = await response.json();
+      setSelectedStory(storyData);
       setCurrentStoryName(storyName);
       setIsStoryModalOpen(true);
     } catch (error) {
