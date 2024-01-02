@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "text": "Whiskers, a curious cat, discovers a hidden, magical garden behind her home. Intrigued, Whiskers stands at a fork in the path: one leads through a vibrant flower path, the other into a mysterious shady grove.",
+        "text": "Whiskers, a curious cat, discovers a hidden, magical garden behind her home. Inside the garden are two paths: one leads through a flower path, the other into a shady grove.  Which path should Whiskers take?",
         "image": "1.png",
         "choices": [
             {
@@ -16,7 +16,7 @@
     },
     {
         "id": 2,
-        "text": "On the flower path, Whiskers finds talking flowers, each with their own riddles and stories. Whiskers meets a confused daisy and a sunflower seeking the perfect sunlight. Which flower should Whiskers help?",
+        "text": "Along the flower path are talking flowers, each with their own stories! Whiskers meets a confused daisy and a sunflower seeking the perfect sunlight. Which flower should Whiskers help?",
         "image": "2.png",
         "choices": [
             {
@@ -31,7 +31,7 @@
     },
     {
         "id": 3,
-        "text": "In the shady grove, ancient trees and playful shadows abound. Whiskers encounters an old oak tree with a riddle and mysterious shadows inviting him to a game. What should Whiskers do?",
+        "text": "In the shady grove, Whiskers finds ancient trees and playful shadows! She encounters an old oak tree with a riddle and mysterious shadows inviting her to a game. What should Whiskers do?",
         "image": "3.png",
         "choices": [
             {
@@ -46,7 +46,7 @@
     },
     {
         "id": 4,
-        "text": "Whiskers helps the daisy remember its song, uncovering a hidden key beneath its petals. Suddenly, a magical storm begins. Should Whiskers seek shelter or head back to the garden's entrance?",
+        "text": "Whiskers helps the daisy remember its song, uncovering a hidden key beneath its petals. Suddenly, a magical storm begins. Should Whiskers seek shelter or head back towards home?",
         "image": "4.png",
         "choices": [
             {
@@ -61,7 +61,7 @@
     },
     {
         "id": 5,
-        "text": "Helping the sunflower find sunlight reveals a secret passage behind its stalk. As Whiskers explores, a magical storm brews. Does Whiskers seek shelter or return to safety?",
+        "text": "Helping the sunflower find sunlight reveals a secret passage behind its stalk. As Whiskers explores, a magical storm brews. Does Whiskers seek shelter or return home?",
         "image": "5.png",
         "choices": [
             {
@@ -69,14 +69,14 @@
                 "next": 8
             },
             {
-                "text": "return to entrance",
+                "text": "return home",
                 "next": 9
             }
         ]
     },
     {
         "id": 6,
-        "text": "Whiskers solves the oak tree's riddle, unlocking a hidden drawer with an ancient map of the garden. As the weather turns, Whiskers must choose: find shelter or return home?",
+        "text": "Whiskers solves the oak tree's riddle, unlocking a hidden drawer with an ancient map of the garden! But a storm is brewing in the distance, and Whiskers will have to continue exploring another day! Help Whiskers choose: should she find shelter here in the forest or return home?",
         "image": "6.png",
         "choices": [
             {
@@ -84,7 +84,7 @@
                 "next": 8
             },
             {
-                "text": "return to entrance",
+                "text": "return home",
                 "next": 9
             }
         ]

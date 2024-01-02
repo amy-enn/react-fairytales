@@ -17,13 +17,6 @@ interface StorySection {
   choices: Choice[];
 }
 
-// interface StoryData {
-//   [key: number]: StorySection;
-// }
-
-// interface StoryData {
-//   storyData: StorySection[];
-// }
 
 type StoryData = StorySection[];
 
