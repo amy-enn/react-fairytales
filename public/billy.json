@@ -1,0 +1,203 @@
+[
+    {
+        "id": 1,
+        "text": "Billy, a spirited young goat, gazes up at the towering mountain that dominates the landscape of his peaceful valley home. Filled with a sense of adventure, Billy decides it's time to explore the mountain and uncover its mysteries.  Which way should he go?",
+        "image": "1.png",
+        "choices": [
+            {
+                "text": "forest path",
+                "next": 2
+            },
+            {
+                "text": "river trail",
+                "next": 3
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "text": "The Forest Path is a canopy of green, with sunlight filtering through the leaves. It's a world alive with the sounds of nature. Here, Billy meets woodland creatures and faces natural challenges.",
+        "image": "2.png",
+        "choices": [
+            {
+                "text": "help a lost bird",
+                "next": 4
+            },
+            {
+                "text": "climb a tall tree",
+                "next": 5
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "text": "The River Trail runs alongside the glistening waters, offering views of the mountain from a different perspective. Billy encounters a group of otters who invite him to play, but he also sees an island off in the distance that he could reach with... a raft?",
+        "image": "3.png",
+        "choices": [
+            {
+                "text": "build a raft",
+                "next": 6
+            },
+            {
+                "text": "follow the otters",
+                "next": 7
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "text": "Billy helps a small bird who has lost its way. The bird, in gratitude, leads Billy to a hidden glade, where a rare flower blooms. This discovery fills Billy with wonder and a sense of connection to the forest.",
+        "image": "4.png",
+        "choices": [
+            {
+                "text": "continue on the path",
+                "next": 8
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "text": "Scaling the tall tree, Billy finds a shimmering object: an old map showing secret paths and hidden treasures on the mountain. With this map, the mountain's mysteries start to unfold before Billy.",
+        "image": "5.png",
+        "choices": [
+            {
+                "text": "explore a hidden path",
+                "next": 9
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "text": "Using driftwood and vines, Billy constructs a sturdy raft. The raft takes him to a small island where an ancient artifact lies hidden. This discovery speaks of the mountain's long-forgotten history.",
+        "image": "6.png",
+        "choices": [
+            {
+                "text": "return to the trail",
+                "next": 10
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "text": "The otters lead Billy to a secret cave. Inside, Billy learns to swim and dive, gaining skills that fill him with confidence and a newfound appreciation for the river's hidden depths.",
+        "image": "7.png",
+        "choices": [
+            {
+                "text": "swim back to shore",
+                "next": 11
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "text": "As Billy continues along the path, dark clouds begin to gather overhead. A storm is approaching, and Billy faces a tough decision: find shelter in the forest or return to the valley.",
+        "image": "8.png",
+        "choices": [
+            {
+                "text": "find shelter",
+                "next": 12
+            },
+            {
+                "text": "head home",
+                "next": 13
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "text": "Following the map's hidden path, Billy discovers an underground cavern with ancient wall drawings that tell stories of the mountain's past. Outside, the storm looms, challenging Billy's resolve.",
+        "image": "9.png",
+        "choices": [
+            {
+                "text": "explore the cavern",
+                "next": 14
+            },
+            {
+                "text": "back to the valley",
+                "next": 13
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "text": "After returning to the trail with his newfound treasure, Billy marvels at the mountain's secrets. He feels a mix of excitement and longing for home.",
+        "image": "10.png",
+        "choices": [
+            {
+                "text": "explore another cavern",
+                "next": 14
+            },
+            {
+                "text": "return home",
+                "next": 13
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "text": "Having mastered swimming and diving, Billy emerges from the cave feeling brave and invigorated. He contemplates his next move.  Is there time to explore one more cavern?",
+        "image": "11.png",
+        "choices": [
+            {
+                "text": "cavern",
+                "next": 14
+            },
+            {
+                "text": "return home",
+                "next": 13
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "text": "In the forest shelter, Billy finds a community of animals weathering the storm together. They share stories and wisdom, giving Billy a deeper understanding of the mountain's spirit.",
+        "image": "12.png",
+        "choices": [
+            {
+                "text": "return home",
+                "next": 15
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "text": "Returning to the valley, Billy feels a mix of relief and longing. The safety of home is comforting, but the mountain's mysteries still call to him. He knows he'll return to explore another day.",
+        "image": "13.png",
+        "choices": [
+            {
+                "text": "continue",
+                "next": 16
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "text": "Deep in the cavern, Billy uncovers tales of ancient times. Each drawing tells a story of the mountain's past, filling Billy with awe and a sense of belonging to something greater. As he exits the cavern, the storm clears, revealing a starlit sky.",
+        "image": "14.png",
+        "choices": [
+            {
+                "text": "head home",
+                "next": 15
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "text": "As he heads back home, Billy feels a deep connection with the mountain and its history. The adventure leaves him enriched with stories and he knows more adventures await in the future.",
+        "image": "15.png",
+        "choices": [
+            {
+                "text": "continue",
+                "next": 16
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "text": "",
+        "image": "16.png",
+        "choices": []
+    }
+
+    
+]

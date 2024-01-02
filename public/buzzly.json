@@ -1,0 +1,158 @@
+[
+    {
+        "id": 1,
+        "text": "As the first rays of sunshine filter through the hive, Buzzly the bee wakes up with excitement. The hive is abuzz with activity, and the meadow outside is waiting to be explored. Buzzly can choose to venture out into the flower field or stay and help in the hive.",
+        "image": "1.png",
+        "choices": [
+            {
+                "text": "flower field",
+                "next": 2
+            },
+            {
+                "text": "hive help",
+                "next": 3
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "text": "In the flower field, Buzzly is greeted by a myriad of colors and scents. He meets a lost butterfly and bees organizing a pollination game. What should Buzzly do?",
+        "image": "2.png",
+        "choices": [
+            {
+                "text": "butterfly",
+                "next": 4
+            },
+            {
+                "text": "pollination game",
+                "next": 5
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "text": "There's plenty to be done inside the hive! Buzzly can learn how to make delicious honey or spend some time caring for the precious baby bees. Which task does he choose?",
+        "image": "3.png",
+        "choices": [
+            {
+                "text": "make honey",
+                "next": 6
+            },
+            {
+                "text": "baby bees",
+                "next": 7
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "text": "Buzzly decides to help the lost butterfly, leading them to a secret area with exotic flowers. As they explore, a storm brews. Does Buzzly seek shelter or return to the hive?",
+        "image": "4.png",
+        "choices": [
+            {
+                "text": "seek shelter",
+                "next": 8
+            },
+            {
+                "text": "return home",
+                "next": 9
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "text": "Buzzly joins the pollination game, learning new skills. But soon a dark raincloud approaches, and Buzzly must decide: should he find shelter out here in the flower fields or return to the hive for shelter?",
+        "image": "5.png",
+        "choices": [
+            {
+                "text": "seek shelter",
+                "next": 8
+            },
+            {
+                "text": "return home",
+                "next": 9
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "text": "In the honey-making area, Buzzly learns the secrets of making honey. When a storm starts, does he stay safe inside or venture out to warn the others?",
+        "image": "6.png",
+        "choices": [
+            {
+                "text": "stay in the hive",
+                "next": 10
+            },
+            {
+                "text": "venture out",
+                "next": 11
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "text": "Caring for the baby bees is vital for the hive's future. As the storm nears, should Buzzly stay inside tending to the larva or venture outside to warn and gather others?",
+        "image": "7.png",
+        "choices": [
+            {
+                "text": "stay inside",
+                "next": 10
+            },
+            {
+                "text": "warn the others",
+                "next": 11
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "text": "Buzzly finds shelter, discovering a hidden part of the meadow with new stories and wisdom. After the storm, he emerges wiser.",
+        "image": "8.png",
+        "choices": [
+            {
+                "text": "continue",
+                "next": 12
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "text": "Buzzly returns to the hive, warning the colony. His bravery is celebrated as he becomes a hero of the hive.",
+        "image": "9.png",
+        "choices": [
+            {
+                "text": "continue",
+                "next": 12
+            }
+            
+        ]
+    },
+    {
+        "id": 10,
+        "text": "Buzzly protects the larvae, ensuring their safety. His dedication is recognized, and he is seen as a guardian of the future.",
+        "image": "10.png",
+        "choices": [
+            {
+                "text": "continue",
+                "next": 12
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "text": "Braving the storm, Buzzly warns the meadow's inhabitants, safeguarding everyone. He is hailed as a hero for his courage.",
+        "image": "11.png",
+        "choices": [
+            {
+                "text": "continue",
+                "next": 12
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "text": "",
+        "image": "12.png",
+        "choices": []
+    }
+]
