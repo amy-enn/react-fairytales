@@ -1,5 +1,6 @@
 # Enchanted Fairytales ⋆°🍄🧚‍♂️⋆.ೃ࿔ 
 
+![gif of app in the browser](gifRecording.gif)
 
 Enchanted Fairytales is an interactive, Choose-Your-Own-Adventure style storybook app built with React (Typescript) where users can make choices that influence the plot. The app currently includes three stories, each with its unique set of choices and adventures.
 
