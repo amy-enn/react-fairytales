@@ -63,6 +63,11 @@ hr {
   padding: 0.5rem;
   background-color: var(--button-bg-color);
   cursor: pointer;
+  font-weight: bold;
+}
+
+.modal-content button:hover {
+  scale: 1.1;
 }
 
 #textAndImage {
