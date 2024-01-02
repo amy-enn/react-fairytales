@@ -19,14 +19,6 @@ interface StorySection {
     choices: Choice[];
 }
 
-// interface StoryData {
-//     [key: number]: StorySection;
-// }
-
-// interface StoryData {
-//     storyData: StorySection[];
-// }
-
 type StoryData = StorySection[];
 
 
@@ -36,8 +28,6 @@ export default function StoryModal({ storyData, isOpen, onClose, storyName }: St
     const [currentSectionId, setCurrentSectionId] = useState<number>(1);
 
     // console.log(storyData);
-
-
 
 
     useEffect(() => {
@@ -74,7 +64,7 @@ export default function StoryModal({ storyData, isOpen, onClose, storyName }: St
 
     useEffect(() => {
         setCurrentSectionId(1);
-    }, []);
+    }, [storyData]);
 
 
 

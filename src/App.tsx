@@ -3,18 +3,7 @@ import './App.css';
 import StoryModal from './components/StoryModal';
 
 
-// interface AppProps {
-//   storyData: StoryData;
-  
-// }
-
-// interface StoryData {
-//   // storyData: StorySection[];
-//   data: StoryData;
-//   // isOpen: boolean;
-//   // onClose: () => void;
-//   // storyName: string;
-// }
+// TODO: Add comments & readme <3
 
 interface Choice {
   text: string;
